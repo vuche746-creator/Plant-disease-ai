@@ -54,7 +54,7 @@ if uploaded_file is not None:
     #st.info(f"Confidence: {confidence*100:.2f}%")
 predicted_class = class_names[predicted_index]
 
-confidence = float(np.max(predictions)) * 100
+confidence = float(np.max(prediction)) * 100
 
 parts = predicted_class.split("___")
 
