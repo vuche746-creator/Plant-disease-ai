@@ -1,0 +1,306 @@
+{
+    "Apple___Apple_scab": {
+        "description": "Apple - Apple scab disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Apple___Black_rot": {
+        "description": "Apple - Black rot disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Apple___Cedar_apple_rust": {
+        "description": "Apple - Cedar apple rust disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Apple___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Blueberry___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+        "description": "Cherry (including sour) - Powdery mildew disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Cherry_(including_sour)___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+        "description": "Corn (maize) - Cercospora leaf spot Gray leaf spot disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Corn_(maize)___Common_rust_": {
+        "description": "Corn (maize) - Common rust  disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+        "description": "Corn (maize) - Northern Leaf Blight disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Corn_(maize)___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Grape___Black_rot": {
+        "description": "Grape - Black rot disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Grape___Esca_(Black_Measles)": {
+        "description": "Grape - Esca (Black Measles) disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+        "description": "Grape - Leaf blight (Isariopsis Leaf Spot) disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Grape___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+        "description": "Orange - Haunglongbing (Citrus greening) disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Peach___Bacterial_spot": {
+        "description": "Peach - Bacterial spot disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Peach___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Pepper,_bell___Bacterial_spot": {
+        "description": "Pepper, bell - Bacterial spot disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Pepper,_bell___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Potato___Early_blight": {
+        "description": "Potato - Early blight disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Potato___Late_blight": {
+        "description": "Potato - Late blight disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Potato___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Raspberry___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Soybean___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Squash___Powdery_mildew": {
+        "description": "Squash - Powdery mildew disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Strawberry___Leaf_scorch": {
+        "description": "Strawberry - Leaf scorch disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Strawberry___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    },
+    "Tomato___Bacterial_spot": {
+        "description": "Tomato - Bacterial spot disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___Early_blight": {
+        "description": "Tomato - Early blight disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___Late_blight": {
+        "description": "Tomato - Late blight disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___Leaf_Mold": {
+        "description": "Tomato - Leaf Mold disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___Septoria_leaf_spot": {
+        "description": "Tomato - Septoria leaf spot disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+        "description": "Tomato - Spider mites Two-spotted spider mite disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___Target_Spot": {
+        "description": "Tomato - Target Spot disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+        "description": "Tomato - Tomato Yellow Leaf Curl Virus disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___Tomato_mosaic_virus": {
+        "description": "Tomato - Tomato mosaic virus disease detected.",
+        "treatment": [
+            "Remove infected plant parts",
+            "Apply appropriate treatment",
+            "Monitor plant condition regularly"
+        ]
+    },
+    "Tomato___healthy": {
+        "description": "Healthy plant. No disease detected.",
+        "treatment": [
+            "Continue good agricultural practices",
+            "Monitor regularly",
+            "Provide adequate nutrients and water"
+        ]
+    }
+}
