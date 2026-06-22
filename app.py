@@ -4,6 +4,7 @@ import tensorflow as tf
 import numpy as np
 import json
 from PIL import Image
+import json
 
 # Load model
 model = tf.keras.models.load_model("plant_disease_final.h5")
