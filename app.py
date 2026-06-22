@@ -31,11 +31,10 @@ if uploaded_file is not None:
         use_container_width=True
     )
 
-    image = image.resize((224, 224))
+    image = image.resize((224,224))
 
     img_array = np.array(image)
 
-    # Handle RGBA images
     if img_array.shape[-1] == 4:
         img_array = img_array[:, :, :3]
 
@@ -46,56 +45,50 @@ if uploaded_file is not None:
 
     predicted_index = np.argmax(prediction)
 
-    confidence = np.max(prediction)
+    confidence = float(np.max(prediction)) * 100
 
-    disease = class_names[predicted_index]
+    predicted_class = class_names[predicted_index]
 
-    #st.success(f"Disease: {disease}")
-    #st.info(f"Confidence: {confidence*100:.2f}%")
-predicted_class = class_names[predicted_index]
+    parts = predicted_class.split("___")
 
-confidence = float(np.max(prediction)) * 100
+    plant_name = parts[0].replace("_", " ")
 
-parts = predicted_class.split("___")
+    if len(parts) > 1:
+        disease_name = parts[1].replace("_", " ")
+    else:
+        disease_name = "Unknown"
 
-plant_name = parts[0].replace("_", " ")
+    info = disease_info.get(predicted_class, {})
 
-if len(parts) > 1:
-    disease_name = parts[1].replace("_", " ")
-else:
-    disease_name = "Unknown"
+    description = info.get(
+        "description",
+        "No description available."
+    )
 
-info = disease_info.get(predicted_class, {})
+    treatment = info.get(
+        "treatment",
+        ["No treatment information available."]
+    )
 
-description = info.get(
-    "description",
-    "No description available."
-)
+    st.success("Prediction Complete")
 
-treatment = info.get(
-    "treatment",
-    ["No treatment information available."]
-)
+    st.subheader("🌱 Plant")
+    st.write(plant_name)
 
-st.success("Prediction Complete")
+    if "healthy" in predicted_class.lower():
+        st.subheader("✅ Status")
+        st.write("Healthy")
+    else:
+        st.subheader("🦠 Disease")
+        st.write(disease_name)
 
-st.subheader("🌱 Plant")
-st.write(plant_name)
+    st.subheader("📊 Confidence")
+    st.write(f"{confidence:.2f}%")
 
-if "healthy" in predicted_class.lower():
-    st.subheader("✅ Status")
-    st.write("Healthy")
-else:
-    st.subheader("🦠 Disease")
-    st.write(disease_name)
+    st.subheader("📖 Description")
+    st.write(description)
 
-st.subheader("📊 Confidence")
-st.write(f"{confidence:.2f}%")
+    st.subheader("💊 Recommended Treatment")
 
-st.subheader("📖 Description")
-st.write(description)
-
-st.subheader("💊 Recommended Treatment")
-
-for item in treatment:
-    st.write(f"• {item}")
+    for item in treatment:
+        st.write(f"• {item}")
